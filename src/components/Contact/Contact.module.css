@@ -1,0 +1,48 @@
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(145deg, #f6d5f7, #fbeeff);
+    box-shadow: 5px 5px 15px #e1c4e3, -5px -5px 15px #fff;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4b3f72;
+    text-shadow: 1px 1px 2px rgba(75, 63, 114, 0.2);
+    margin-bottom: 5px;
+}
+
+.number {
+    font-size: 16px;
+    color: #6c5b7b;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(145deg, #ff758c, #ff7eb3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 8px rgba(255, 117, 140, 0.3);
+}
+
+.button:hover {
+    background: linear-gradient(145deg, #ff5c78, #ff85b6);
+    box-shadow: 5px 5px 12px rgba(255, 117, 140, 0.4);
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.95);
+    box-shadow: inset 2px 2px 6px rgba(255, 117, 140, 0.5);
+}
